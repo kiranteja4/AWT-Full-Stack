@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import http from "http";
 import { Server } from "socket.io";
-import Task from "./models/Task.js";
+import Task from "./models/task.js";
 
 const PORT = process.env.PORT || 5000;
 const app = express();
